@@ -1,0 +1,30 @@
+{
+  "name": "main-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd src && nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "chokidar": "^4.0.3",
+    "cors": "^2.8.5",
+    "dockerode": "^4.0.7",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5",
+    "ioredis": "^5.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "util": "^0.12.5"
+  }
+}
